@@ -4,10 +4,7 @@ import UserList from "./components/User/UserList";
 import styles from "./App.module.css";
 
 function App() {
-  const [users, setUsers] = useState([
-    { id: 1, userName: "Louis", age: 23 },
-    { id: 2, userName: "Louis", age: 23 },
-  ]);
+  const [users, setUsers] = useState([]);
 
   const newUserHandler = (userDetails) => {
     userDetails["id"] = users.length + 1;

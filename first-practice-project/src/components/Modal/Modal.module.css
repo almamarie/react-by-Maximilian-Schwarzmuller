@@ -1,0 +1,14 @@
+.modal {
+  width: 54rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.button {
+  text-align: right;
+}
+
+.close {
+  display: none;
+}

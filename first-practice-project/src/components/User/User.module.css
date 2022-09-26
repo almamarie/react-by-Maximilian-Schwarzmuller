@@ -1,0 +1,8 @@
+.user {
+  list-style: none;
+  width: 50rem;
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+}

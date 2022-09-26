@@ -1,0 +1,19 @@
+.input-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.input-wrapper:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.input-wrapper label {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.input-wrapper input {
+  width: 50rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

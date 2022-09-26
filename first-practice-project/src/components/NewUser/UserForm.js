@@ -22,6 +22,8 @@ const UserForm = (props) => {
       userName: userName,
       age: age,
     };
+    setUserName("");
+    setAge("");
 
     props.onSubmit(newData);
   };
@@ -30,11 +32,16 @@ const UserForm = (props) => {
       <form onSubmit={submitUser}>
         <div className={styles["input-wrapper"]}>
           <label>Username</label>
-          <input onChange={userNameHandler} type="text" id="username" />
+          <input
+            onChange={userNameHandler}
+            type="text"
+            id="username"
+            value={userName}
+          />
         </div>
         <div className={styles["input-wrapper"]}>
           <label>Age(Years)</label>
-          <input type="number" id="age" onChange={ageHandler} />
+          <input type="number" id="age" onChange={ageHandler} value={age} />
         </div>
         <Button type="submit">Add User</Button>
       </form>

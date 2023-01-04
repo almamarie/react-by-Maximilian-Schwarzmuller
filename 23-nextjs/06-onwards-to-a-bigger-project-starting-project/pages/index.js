@@ -13,7 +13,7 @@ function HomePage(props) {
           content="Brows a lis of highly active React Meetups"
         />
       </Head>
-      <MeetupList meetups={props.meetups} />;
+      <MeetupList meetups={props.meetups} />
     </Fragment>
   );
 }

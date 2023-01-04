@@ -1,7 +1,10 @@
 import MeetupDetail from "../../components/meetups/MeetupDetail";
 import { MongoClient, ObjectId } from "mongodb";
 import { Fragment } from "react";
+<<<<<<< HEAD
 import Head from "next/head";
+=======
+>>>>>>> 6448c4f (resolved rebase conflict)
 
 function MeetupDetails(props) {
   return (
